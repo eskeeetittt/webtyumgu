@@ -38,7 +38,11 @@
 }
 
 .button_1 {
+<<<<<<< HEAD
     background: linear-gradient(to bottom, #5A98D0, #356EAD);
+=======
+    background: #5A98D0;
+>>>>>>> 3dd9f7f224329ac91d9d401974134e748627c68a
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     font-family: inherit;
@@ -58,7 +62,11 @@
     max-width: 540px;
     padding: 30px;
     background-color: #EDF5FC;
+<<<<<<< HEAD
     background-image: url("../img/backgroundform.jpg");
+=======
+    background-image: url("../../../images/background.jpg");
+>>>>>>> 3dd9f7f224329ac91d9d401974134e748627c68a
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

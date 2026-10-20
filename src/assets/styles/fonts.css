@@ -1,8 +1,13 @@
 @font-face {
     font-family: "Inter";
     src: local('Inter Bold'), local('Inter-Bold'),
+<<<<<<< HEAD
          url("../fonts/Inter-Bold.ttf") format("truetype"),
          url("../fonts/Inter-Bold.woff2") format("woff2");
+=======
+         url("/static/fonts/Inter-Bold.ttf") format("truetype"),
+         url("/static/fonts/Inter-Bold.woff2") format("woff2");
+>>>>>>> 3dd9f7f224329ac91d9d401974134e748627c68a
     font-weight: 700;
     font-style: normal;
 }
@@ -10,8 +15,13 @@
 @font-face {
     font-family: "Inter";
     src: local('Inter Medium'), local('Inter-Medium'),
+<<<<<<< HEAD
          url("../fonts/Inter-Medium.ttf") format("truetype"),
          url("../fonts/Inter-Medium.woff2") format("woff2");
+=======
+         url("/static/fonts/Inter-Medium.ttf") format("truetype"),
+         url("/static/fonts/Inter-Medium.woff2") format("woff2");
+>>>>>>> 3dd9f7f224329ac91d9d401974134e748627c68a
     font-weight: 500;
     font-style: normal;
 }
@@ -19,10 +29,26 @@
 @font-face {
     font-family: "Inter";
     src: local('Inter Regular'), local('Inter-Regular'),
+<<<<<<< HEAD
          url("../fonts/Inter-Regular.ttf") format("truetype"),
          url("../fonts/Inter-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
+=======
+         url("/static/fonts/Inter-Regular.ttf") format("truetype"),
+         url("/static/fonts/Inter-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Italic'), local('Inter-Italic'),
+         url("/static/fonts/Inter-Italic.ttf") format("truetype"),
+         url("/static/fonts/Inter-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+>>>>>>> 3dd9f7f224329ac91d9d401974134e748627c68a
 }
 
 @font-face {
