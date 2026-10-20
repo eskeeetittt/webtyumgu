@@ -1,6 +1,3 @@
-body {
-    background-color: pink !important;
-}
 @import "./global.css";
 @import "./fonts.css";
 @import "./utils.css";
