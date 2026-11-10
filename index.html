@@ -7,412 +7,374 @@
     <title>4 лабораторная</title>
 </head>
 <body>
-    <header class="header">
-        <span class="header_title accent_color">IT WEBSITE</span>
+    <div class="page_background">
+        <header class="header">
+            <span class="header_title accent_color">IT WEBSITE</span>
 
-        <nav class="header_navbar">
-            <ul>
-                <li><a href="#Services" class="navbar_text">Services</a></li>
-                <li><a href="#Media" class="navbar_text">Media</a></li>
-                <li><a href="#Cases" class="navbar_text">Cases</a></li>
-                <li><a href="#FAQ" class="navbar_text">FAQ</a></li>
-                <li><a href="#Contacts" class="navbar_text">Contacts</a></li>
-            </ul>
-        </nav>
-
-        <address class="header_contacts">
-            <div class="header_phones">
-                <img src="src/img/header_phone.jpg" class="header_img_phone">
-                <a href="tel:+78005553535" class="accent_color">+7 (800) 555-35-35</a>
-                <a href="tel:+74951234567" class="accent_color">+7 (495) 123-45-67</a>
-            </div>
-
-            <div class="header_email">
-                <img src="src/img/header_mail.jpg" class="header_img_mail">
-                <a href="mailto:contact@it-agency.ru" class="accent_color">contact@it-agency.ru</a>
-            </div>
-        </address>
-    </header>
-
-    <hr>
-
-    <main>
-        <section class="main_section">
-            <div class="section_content">
-                <h1 class="section_title">
-                    Development of <span class="blue_clr">mobile
-                    applications </span> and <span class="blue_clr">web services</span> of
-                    any complexity
-                </h1>
-
-                <p class="section_description">
-                    We create mobile applications for iOS, Android that transfer your 
-                    business to mobile applications of your customers' devices
-                </p>
-            </div>
-
-            <form action="#" method="post" class="contact_form">
-                <h2 class="contact_form_title"> 
-                    Leave your contacts and we will call you back within 30 minutes
-                </h2>
-
-                <div class="form_container">
-                    <div class="contact_form_element">
-                        <label for="phone">Phone number</label>
-                        <div class="phone_block">
-                            <img src="src/img/flag.png" class="country_img">
-                            <input id="phone" type="tel" placeholder="+7 (705) 503-18-60">
-                        </div>
-                    </div>
-
-                    <div class="contact_form_element">
-                        <label for="name">Full name</label>
-                        <input id="name" type="text" placeholder="Александр Козак">
-                    </div>
-                    
-                    <button class="contact_form_button" type="submit">Get consultation</button>
-                </div>
-            </form>
-
-            <img src="src/img/background.png" class="background_imgs">
-        </section>
-
-        <hr>
-
-        <section class="cycle_section">
-            <div class="cycle_left_case">
-                <h2 class="cycle_title">
-                    Full dev...
-                </h2>
-                <p class="cycle_description">
-                    We use...
-                </p>
-
-                <h3>Web</h3>
-                <p>
-                    PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/ <br>
-                    Nuxt / MySQL / Laravel / GO lang / django / Python
-                </p>
-                
-                <h3>Mobile</h3>
-                <p>
-                    Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm <br>
-                    / Coroutine / RxJava / RxSwift / Unit Test / Navigation
-                </p>
-            </div>
-
-            <div class="cycle_right_case">
-                <ul class="technologies_list">
-                    <li><a href="">IOS <span class="link_arrow"></span></a></li>
-                    <li><a href="">Android <span class="link_arrow"></span></a></li>
-                    <li><a href="">Web <span class="link_arrow"></span></a></li>
-                    <li><a href="">UI/UX <span class="link_arrow"></span></a></li>
-                    <li><a href="">Testing <span class="link_arrow"></span></a></li>
-                    <li><a href="">Launch <span class="link_arrow"></span></a></li>
-                    <li><a href="">IT consulting <span class="link_arrow"></span></a></li>
+            <nav class="header_navbar">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#cases">Cases</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
+            </nav>
+
+            <div class="header_contacts">
+                <div class="header_phones">
+                    <img src="src/img/header_phone.jpg" class="header_img_phone" alt="">
+                    <a href="tel:+78005553535" class="accent_color">+7 (800) 555-35-35</a>
+                </div>
+                <div class="header_email">
+                    <img src="src/img/header_mail.jpg" class="header_img_mail" alt="">
+                    <a href="mailto:contact@it-agency.ru" class="accent_color">contact@it-agency.ru</a>
+                </div>
             </div>
-        </section>
+        </header>
 
-        <hr>
+        <main>
+            
+            <section class="main_section" id="services">
+                <div class="section_content">
+                    <h1 class="section_title">
+                        Development of <span class="blue_clr">mobile applications</span> and <span class="blue_clr">web services</span> of any complexity
+                    </h1>
+                    <p class="section_description">
+                        We create mobile applications for iOS, Android that transfer your business to mobile applications of your customers' devices
+                    </p>
+                </div>
 
-        <section class="industries">
-            <h2 class="industries_title">
-                Developed more than <span class="blue_clr">100</span>
-                projects in <span class="blue_clr">15</span> industries
-            </h2>
+                <form action="#" method="post" class="contact_form">
+                    <h2 class="contact_form_title"> 
+                        Leave your contacts and we will call you back within 30 minutes
+                    </h2>
+                    <div class="form_container">
+                        <div class="contact_form_element">
+                            <label for="phone">Phone number</label>
+                            <div class="phone_block">
+                                <img src="src/img/flag.png" class="country_img" alt="">
+                                <input id="phone" type="tel" placeholder="+7 (800) 555-35-35">
+                            </div>
+                        </div>
 
-            <ul class="industries_list">
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-                <li class="industries_list_element"><img src="" class="industries_list_img">industri</li>
-            </ul>
-        </section>
+                        <div class="contact_form_element">
+                            <label for="name">Full name</label>
+                            <input id="name" type="text" placeholder="Иван Иванов">
+                        </div>
+                        
+                        <button class="contact_form_button" type="submit">Get consultation</button>
+                    </div>
+                </form>
+            </section>
 
-        <hr>
+            <hr>
 
-        <section class="projects">
-            <h2 class="projects_title">projects...</h2>
-            <p class="projects_description">
-                our...
-            </p>
+            <section class="cycle_section">
+                <div class="cycle_left_case">
+                    <h2 class="cycle_title">Full development cycle</h2>
+                    <p class="cycle_description">We use proven technologies</p>
 
-            <div class="projects_items_list">
-                <nav class="projects_navbar">
-                    <ul class="projects_list">
-                        <li><a href="">project</a></li>
-                        <li><a href="">project</a></li>
-                        <li><a href="">project</a></li>
-                        <li><a href="">project</a></li>
-                        <li><a href="">project</a></li>
-                        <li><a href="">project</a></li>
-                        <li><a href="">project</a></li>
+                    <div class="cycle_left_case_programm">
+                        <h3 class="cycle_subtitle">Web</h3>
+                        <p class="cycle_subdescription">
+                            PHP <span class="cycle_slash">/</span> Javascript <span class="cycle_slash">/</span> Node.JS 
+                            <span class="cycle_slash">/</span> Web Socket <span class="cycle_slash">/</span> Socket.io 
+                            <span class="cycle_slash">/</span> Vue.js <span class="cycle_slash">/</span>
+                            Nuxt <span class="cycle_slash">/</span> MySQL <span class="cycle_slash">/</span> Laravel <span class="cycle_slash">/</span> 
+                            GO lang <span class="cycle_slash">/</span> django <span class="cycle_slash">/</span> Python
+                        </p>
+                        
+                        <h3 class="cycle_subtitle">Mobile</h3>
+                        <p class="cycle_subdescription">
+                            Swift <span class="cycle_slash">/</span> Kotlin <span class="cycle_slash">/</span> 
+                            Alamofire <span class="cycle_slash">/</span> Firebase <span class="cycle_slash">/</span> 
+                            CoreData <span class="cycle_slash">/</span> Room <span class="cycle_slash">/</span> 
+                            Realm <span class="cycle_slash">/</span> Coroutine <span class="cycle_slash">/</span> 
+                            RxJava <span class="cycle_slash">/</span> RxSwift <span class="cycle_slash">/</span> 
+                            Unit Test <span class="cycle_slash">/</span> Navigation
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cycle_right_case">
+                    <ul class="technologies_list">
+                        <li><a href="">iOS development<img src="src/img/strelka.png" class="link_arrow" alt=""></a></li>
+                        <li><a href="">Android development<img src="src/img/strelka.png" class="link_arrow" alt=""></a></li>
+                        <li><a href="">Web development<img src="src/img/strelka.png" class="link_arrow" alt=""></a></li>
+                        <li><a href="">UI/UX design<img src="src/img/strelka.png" class="link_arrow" alt=""></a></li>
+                        <li><a href="">Testing<img src="src/img/strelka.png" class="link_arrow" alt=""></a></li>
+                        <li><a href="">Launch<img src="src/img/strelka.png" class="link_arrow" alt=""></a></li>
+                        <li><a href="">IT consulting<img src="src/img/strelka.png" class="link_arrow" alt=""></a></li>
                     </ul>
-                </nav>
-
-                <a class="projects_button" href="">View...</a>
-            </div>
-
-            <article class="projects_article">
-                <h3 class="projects_article_title">I-teka</h3>
-                <p class="projects_article_description">
-                    the application...
-                </p>
-
-                <p class="projects_article_list">
-                    Business analysis / iOS / Android / QA / UI/UX Design
-                </p>
-
-                <div class="projects_article_tags">
-                    <img src="" class="projects_article_tag_img">
-                    <span class="projects_article_tag_text">Kazakhstan</span>
-                    
-                    <img src="" class="projects_article_tag_img">
-                    <span class="projects_article_tag_text">Medicine</span>
                 </div>
+            </section>
 
-                <div class="projects_article_stats">
-                    <h3 class="projects_article_stats_title">400%</h3>
-                    <p class="projects_article_stats_description">User Growth</p>
-                    
-                    <h3 class="projects_article_stats_title">+ 200 000</h3>
-                    <p class="projects_article_stats_description">Active Users</p>
-                </div>
-                
-                <div class="download_images">
-                    <img src="" class="download_images_item">
-                    <img src="" class="download_images_item">
-                </div>
-            </article>
-        </section>
+            <hr>
 
-        <hr>
-
-        <section class="discuss">
-            <div class="discuss_left_case">
-                <h2 class="discuss_title">
-                    Let's...
+            <section class="industries" id="cases">
+                <h2 class="industries_title">
+                    Developed more than <span class="blue_clr">100</span>
+                    projects in <span class="blue_clr">15</span> industries
                 </h2>
 
-                <p class="discuss_description">
-                    Let's...
-                </p>
-            </div>
+                <ul class="industries_list">
+                    <li class="industries_list_element">Social media</li>
+                    <li class="industries_list_element">Education</li>
+                    <li class="industries_list_element">AR technology</li>
+                    <li class="industries_list_element">Fitness and sport</li>
+                    <li class="industries_list_element">Auto, transport</li>
+                    <li class="industries_list_element">TV series</li>
+                    <li class="industries_list_element">Bank</li>
+                    <li class="industries_list_element">Medicine, health</li>
+                    <li class="industries_list_element">Startups</li>
+                    <li class="industries_list_element">Construction</li>
+                    <li class="industries_list_element">Restaurants, food delivery</li>
+                    <li class="industries_list_element">Religion</li>
+                    <li class="industries_list_element">Game projects</li>
+                    <li class="industries_list_element">Marketplaces</li>
+                    <li class="industries_list_element">Online courses</li>
+                </ul>
+            </section>
 
-            <div class="discuss_right_case">
-                <form action="#" method="post" class="discuss_form">
-                    <div class="discuss_form_item">
-                        <label for="discuss_phone_field">Best phone number</label>
-                        <input id="discuss_phone_field" type="tel">
-                    </div>
+            <hr>
 
-                    <div class="discuss_form_item">
-                        <label for="discuss_name_field">Full name</label>
-                        <input id="discuss_name_field" type="text">
-                    </div>
+            <section class="projects">
+                <h2 class="projects_title">Projects we are proud of</h2>
+                <p class="projects_description">Our software development company is truly proud of the wonderful clients we have worked with.</p>
 
-                    <button class="discuss_form_button" type="submit">Discuss the project</button>
-                </form>
-            </div>
-        </section>
+                <div class="projects_items_list">
+                    <nav class="projects_navbar">
+                        <ul class="projects_list">
+                            <li><a href="">I-teka</a></li>
+                            <li><a href="">Dauletteen</a></li>
+                            <li><a href="">Guru Bosch</a></li>
+                            <li><a href="">Santo</a></li>
+                            <li><a href="">Home Credit Bank</a></li>
+                            <li><a href="">BI Partners</a></li>
+                            <li><a href="">Europharma</a></li>
+                        </ul>
+                    </nav>
 
-        <hr>
-
-        <section class="application">
-            <h2 class="application_title">Application Development Stages</h2>
-
-            <div class="application_item">
-                <img src="" class="application_img">
-                <h3 class="application_item_title">application title</h3>
-                <p class="application_description">application description</p>
-                <span class="background_number">1</span>
-            </div>
-
-            <div class="application_item">
-                <img src="" class="application_img">
-                <h3 class="application_item_title">application title</h3>
-                <p class="application_description">application description</p>
-                <span class="background_number">2</span>
-            </div>
-
-            <div class="application_item">
-                <img src="" class="application_img">
-                <h3 class="application_item_title">application title</h3>
-                <p class="application_description">application description</p>
-                <span class="background_number">3</span>
-            </div>
-
-            <div class="application_item">
-                <img src="" class="application_img">
-                <h3 class="application_item_title">application title</h3>
-                <p class="application_description">application description</p>
-                <span class="background_number">4</span>
-            </div>
-
-            <div class="application_item">
-                <img src="" class="application_img">
-                <h3 class="application_item_title">application title</h3>
-                <p class="application_description">application description</p>
-                <span class="background_number">5</span>
-            </div>
-
-            <div class="application_item">
-                <img src="" class="application_img">
-                <h3 class="application_item_title">application title</h3>
-                <p class="application_description">application description</p>
-                <span class="background_number">6</span>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="team">
-            <div class="team_left_case">
-                <h2 class="team_title">Our team</h2>
-                <p class="team_description">
-                    Thousand...
-                </p>
-
-                <div class="team_stats">
-                    <h2 class="team_stats_title">28</h2>
-                    <p class="team_stats_description">team members</p>
+                    <a class="projects_button" href="">View 100 more projects</a>
                 </div>
 
-                <div class="team_stats">
-                    <h2 class="team_stats_title">+100</h2>
-                    <p class="team_stats_description">projects</p>
-                </div>
+                <article class="projects_article">
+                    <h3 class="projects_article_title">I-teka</h3>
+                    <p class="projects_article_description">The application is designed to search for drugs by availability in pharmacies in cities.</p>
 
-                <div class="team_stats">
-                    <h2 class="team_stats_title">7 years</h2>
-                    <p class="team_stats_description">in IT sphere</p>
-                </div>
-            </div>
+                    <p class="projects_article_list">
+                        Business analysis / iOS / Android / QA / UI/UX Design
+                    </p>
 
-            <div class="team_right_case">
-                <figure class="video_figure">
-                    <video src=""></video>
-                </figure>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="book">
-            <div class="book_text">
-                <h2 class="book_title">
-                    Get the book...
-                </h2>
-
-                <form action="#" method="post" class="book_form">
-                    <div class="book_form_item">
-                        <img src="src/img/flag.png" class="country_img">
-                        <label for="book_phone_field">Phone number</label>
-                        <input id="book_phone_field" type="tel">
+                    <div class="projects_article_tags">
+                        <span class="projects_article_tag_text">Kazakhstan</span>
+                        <span class="projects_article_tag_text">Medicine</span>
                     </div>
+
+                    <div class="projects_article_stats">
+                        <h3 class="projects_article_stats_title">400%</h3>
+                        <p class="projects_article_stats_description">User Growth</p>
+                        
+                        <h3 class="projects_article_stats_title">+ 200 000</h3>
+                        <p class="projects_article_stats_description">Active Users</p>
+                    </div>
+                </article>
+            </section>
+
+            <hr>
+
+            <section class="discuss">
+                <div class="discuss_left_case">
+                    <h2 class="discuss_title">Let's discuss Your project</h2>
+                    <p class="discuss_description">Let's figure out how to create an effective application, its cost and terms of its development</p>
+                </div>
+
+                <div class="discuss_right_case">
+                    <form action="#" method="post" class="discuss_form">
+                        <div class="discuss_form_item">
+                            <label for="discuss_phone_field">Best phone number</label>
+                            <input id="discuss_phone_field" type="tel">
+                        </div>
+
+                        <div class="discuss_form_item">
+                            <label for="discuss_name_field">Full name</label>
+                            <input id="discuss_name_field" type="text">
+                        </div>
+
+                        <button class="discuss_form_button" type="submit">Discuss the project</button>
+                    </form>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="application" id="media">
+                <h2 class="application_title">Application Development Stages</h2>
+
+                <div class="application_item">
+                    <h3 class="application_item_title">Analysis</h3>
+                    <p class="application_description">We write technical specifications for development.</p>
+                    <span class="background_number">1</span>
+                </div>
+
+                <div class="application_item">
+                    <h3 class="application_item_title">Design</h3>
+                    <p class="application_description">We adapt the customer's corporate identity to the platform guidelines.</p>
+                    <span class="background_number">2</span>
+                </div>
+
+                <div class="application_item">
+                    <h3 class="application_item_title">Development</h3>
+                    <p class="application_description">We create an extensible architecture, write clean and stable code.</p>
+                    <span class="background_number">3</span>
+                </div>
+
+                <div class="application_item">
+                    <h3 class="application_item_title">Testing</h3>
+                    <p class="application_description">We carry out functional testing and do bug fixes.</p>
+                    <span class="background_number">4</span>
+                </div>
+
+                <div class="application_item">
+                    <h3 class="application_item_title">Launching</h3>
+                    <p class="application_description">We design the application page and publish it in stores.</p>
+                    <span class="background_number">5</span>
+                </div>
+
+                <div class="application_item">
+                    <h3 class="application_item_title">Support</h3>
+                    <p class="application_description">We monitor the stability of the application and update it.</p>
+                    <span class="background_number">6</span>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Команда -->
+            <section class="team">
+                <div class="team_left_case">
+                    <h2 class="team_title">Our team</h2>
+                    <p class="team_description">Thousand is a full-cycle digital production company.</p>
+
+                    <div class="team_stats">
+                        <h2 class="team_stats_title">28</h2>
+                        <p class="team_stats_description">team members</p>
+                    </div>
+
+                    <div class="team_stats">
+                        <h2 class="team_stats_title">+100</h2>
+                        <p class="team_stats_description">projects</p>
+                    </div>
+
+                    <div class="team_stats">
+                        <h2 class="team_stats_title">7 years</h2>
+                        <p class="team_stats_description">in IT sphere</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Книга -->
+            <section class="book">
+                <div class="book_text">
+                    <h2 class="book_title">Get the book for free by leaving your contacts</h2>
+
+                    <form action="#" method="post" class="book_form">
+                        <div class="book_form_item">
+                            <label for="book_phone_field">Phone number</label>
+                            <input id="book_phone_field" type="tel">
+                        </div>
+                        
+                        <div class="book_form_item">
+                            <label for="book_name_field">Your full name</label>
+                            <input id="book_name_field" type="text" placeholder="Your full name">
+                        </div>
+
+                        <div class="book_form_item">
+                            <label for="book_email_field">email</label>
+                            <input id="book_email_field" type="email">
+                        </div>
+
+                        <button class="book_form_button" type="submit">Send me e-book to my mail</button>
+                    </form>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- FAQ -->
+            <section class="faq" id="faq">
+                <h2 class="faq_title">FAQ</h2>
+
+                <div class="faq_list">
+                    <details class="faq_item">
+                        <summary class="faq_question">What is the cost of a mobile application?</summary>
+                        <p class="faq_answer">Answer.</p>
+                    </details>
+
+                    <details class="faq_item">
+                        <summary class="faq_question">Do you provide a guarantee for the mobile application?</summary>
+                        <p class="faq_answer">Answer.</p>
+                    </details>
                     
-                    <div class="book_form_item">
-                        <input id="book_name_field" type="text" placeholder="Your full name">
-                    </div>
+                    <details class="faq_item">
+                        <summary class="faq_question">How long will development take?</summary>
+                        <p class="faq_answer">Answer.</p>
+                    </details>
 
-                    <div class="book_form_item">
-                        <label for="book_email_field">email</label>
-                        <input id="book_email_field" type="email">
-                    </div>
+                    <details class="faq_item">
+                        <summary class="faq_question">I will not tell my idea, do you guarantee confidentiality?</summary>
+                        <p class="faq_answer">Answer.</p>
+                    </details>
+                </div>
+            </section>
 
-                    <button class="book_form_button" type="submit">send me ebook to my mail</button>
-                </form>
-            </div>
+            <hr>
+        </main>
+    </div>
 
-            <img src="src/img/book.png" class="book_img">
-        </section>
-
-        <hr>
-
-        <section class="faq">
-            <h2 class="faq_title">FAQ</h2>
-
-            <div class="faq_list">
-                <details class="faq_item">
-                    <summary class="faq_question">question</summary>
-                    <p class="faq_answer">answer</p>
-                </details>
-
-                <details class="faq_item">
-                    <summary class="faq_question">question</summary>
-                    <p class="faq_answer">answer</p>
-                </details>
-                
-                <details class="faq_item">
-                    <summary class="faq_question">question</summary>
-                    <p class="faq_answer">answer</p>
-                </details>
-
-                <details class="faq_item">
-                    <summary class="faq_question">question</summary>
-                    <p class="faq_answer">answer</p>
-                </details>
-            </div>
-        </section>
-
-        <hr>
-    </main>
-
-    <footer class="footer">
+    <!-- Футер надежно зафиксирован внизу -->
+    <footer class="footer" id="contacts">
         <a href="" class="footer_title">IT WEBSITE</a>
         
         <div class="footer_items">
             <div class="footer_item">
                 <div class="footer_item_title">
-                    <img src="src/img/phone_footer.png" class="footer_item_title_icon">
+                    <img src="src/img/phone_footer.png" class="footer_item_title_icon" alt="">
                     <p class="footer_item_description">Contact nums</p>
                 </div>
-
-                <p class="footer_item_info">+7 (800) 555-35-35</p>
+                <p class="footer_item_info">+7 (778) 395 90 26</p>
             </div>
 
             <div class="footer_item">
                 <div class="footer_item_title">
-                    <img src="src/img/email_footer.png" class="footer_item_title_icon">
+                    <img src="src/img/email_footer.png" class="footer_item_title_icon" alt="">
                     <p class="footer_item_description">Post</p>
                 </div>
-    
-                <p class="footer_item_info">contact@it-agency.ru</p>
+                <p class="footer_item_info">mail@mail.com</p>
             </div>
             
             <div class="footer_item">
                 <div class="footer_item_title">
-                    <img src="src/img/geo_footer.png" class="footer_item_title_icon">
+                    <img src="src/img/geo_footer.png" class="footer_item_title_icon" alt="">
                     <p class="footer_item_description">Adress</p>
                 </div>
-    
-                <p class="footer_item_info">Moscow, Lenina st. 15</p>
+                <p class="footer_item_info">City city, street st. 90</p>
             </div>
             
             <div class="footer_item">
                 <div class="footer_item_title">
-                    <img src="src/img/doc_footer.png" class="footer_item_title_icon">
+                    <img src="src/img/doc_footer.png" class="footer_item_title_icon" alt="">
                     <p class="footer_item_description">Leave a request</p>
                 </div>
-    
                 <p class="footer_item_info">Leave a request</p>
             </div>
         </div>
-
+        
         <div class="footer_world">
-            <img src="src/img/footer_info.png" class="footer_world_img">
+            <img src="src/img/footer_info.png" class="footer_world_img" alt="">
             <p class="footer_world_txt">We work throughout world</p>
         </div>
     </footer>
