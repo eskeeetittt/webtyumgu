@@ -82,8 +82,8 @@ header img,
 .hero-block {
   display: flex;
   align-items: center;
-  gap: 24px;
   margin: 48px 4% 0;
+  gap: 24px;
 }
 
 .hero-left,
@@ -168,8 +168,8 @@ header img,
 .form_field,
 .form_f {
   display: flex;
-  align-items: flex-end;
   gap: 16px;
+  align-items: flex-end;
 }
 
 .form_section {
@@ -303,6 +303,18 @@ header img,
   line-height: 1.4;
 }
 
+.project-description {
+  line-height: 1.4;
+}
+
+.project-stack {
+  color: #475467;
+}
+
+.project-stack span {
+  color: #2d66ee;
+}
+
 .links_bar,
 .links {
   display: flex;
@@ -366,18 +378,6 @@ header img,
 
 .project-title h2 {
   margin: 0;
-}
-
-.project-description {
-  line-height: 1.4;
-}
-
-.project-stack {
-  color: #475467;
-}
-
-.project-stack span {
-  color: #2d66ee;
 }
 
 #view_100_768,
@@ -515,7 +515,6 @@ footer h2 {
   font-size: 13px;
 }
 
-/* Компактная версия */
 @media (max-width: 1200px) {
   .header_pc,
   .header_contacts {
@@ -763,6 +762,82 @@ footer h2 {
 }
 
 @media (min-width: 1201px) {
+  .page_background {
+    position: relative;
+    overflow: hidden;
+    min-height: 62.4vw;
+    padding: 1.55vw 0 0;
+  }
+
+  .header_pc {
+    z-index: 2;
+    width: 79.5%;
+    min-height: 4vw;
+    margin: 0 0 0 5.7%;
+    padding: 12px 1.7vw;
+    flex-wrap: wrap;
+  }
+
+  .header_contacts {
+    flex-wrap: wrap;
+  }
+
+  .hero-block {
+    margin: 0;
+    padding-left: 5.7%;
+  }
+
+  .hero-left {
+    position: relative;
+    z-index: 1;
+    width: 51%;
+    padding: 5.65vw 0 40px;
+  }
+
+  .hero-left .br_mob {
+    display: none;
+  }
+
+  .hero-left h1 {
+    margin: 0 0 1.8vw;
+    font-size: 2.6vw;
+    line-height: 1.4;
+  }
+
+  .hero-left p {
+    max-width: 42vw;
+    margin: 0 0 4.6vw;
+    font-size: 1vw;
+    line-height: 1.4;
+  }
+
+  .hero-left .form {
+    min-height: 13.2vw;
+    padding: 1.7vw;
+  }
+
+  .hero-left .form h2 {
+    margin: 0 0 2.3vw;
+    font-size: 1.45vw;
+  }
+
+  .hero-left .button_form {
+    width: 9.35vw;
+    min-height: 4.1vw;
+    padding: 10px 1.7vw;
+    text-align: left;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0;
+    right: -4.5%;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    overflow: visible;
+  }
+
   .projects .links_bar {
     padding-right: 70px;
   }
