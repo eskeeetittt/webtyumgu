@@ -1,413 +1,345 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Thousand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT WEBSITE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-    <div class="page_background" id="page_background_pc">
+    <div class="page_background">
         <input type="checkbox" id="menu-toggle" class="menu-checkbox">
 
         <header class="header_mobile">
-            <label for="menu-toggle" class="poloski" id="poloski">
+            <label for="menu-toggle" class="poloski" aria-label="Open menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
-            <div class="company_name">
-                <span style="color: #2563eb; font-weight: bold;">IT WEBSITE</span>
-            </div>
-            <div class="mobile-header-contact">
-                <a href="mailto:itcompany@mail.com">
-                    <img src="src/img/email.png" alt="Email">
-                </a>
-            </div>
+            <div class="company_name">IT WEBSITE</div>
+            <a href="mailto:itcompany@mail.com">
+                <img src="src/img/email.png" alt="Email">
+            </a>
         </header>
 
-        <div class="mobile-menu" id="mobileMenu">
-            <label for="menu-toggle" class="close-btn" id="closeBtn">&times;</label>
+        <div class="mobile-menu">
+            <label for="menu-toggle" class="close-btn" aria-label="Close menu">&times;</label>
+            <div class="company_name">IT WEBSITE</div>
 
-            <div class="mobile-menu-logo">
-                <span style="color: #2563eb; font-weight: bold; font-size: 36px;">IT WEBSITE</span>
-            </div>
-
-            <nav class="mobile-nav-links">
-                <a href="#services" class="mob-link">Services</a>
-                <a href="#media" class="mob-link">Media</a>
-                <a href="#cases" class="mob-link">Cases</a>
-                <a href="#faq" class="mob-link">FAQ</a>
-                <a href="#contacts" class="mob-link">Contacts</a>
-            </nav>
-
-            <div class="mobile-menu-contacts">
-                <div class="contact_group">
-                    <a href="tel:+71111111111" class="contact_link">
-                        <img src="src/img/phone.png" alt="Телефон" class="phone_icon" /> +7 (111) 111 11 11</a>
-                    <a href="tel:+71111111111" class="contact_link">
-                        <img src="src/img/phone.png" alt="Телефон" class="phone_icon" /> +7 (111) 111 11 11</a>
-                </div>
-                <div class="contact_group">
-                    <a href="mailto:itcompany@mail.com" class="contact_link"><img src="src/img/email.png" alt="Email" class="email_icon" />itcompany@mail.com</a>
-                </div>
-            </div>
-        </div>
-        <header class="header_pc">
-            <div class="company_name">
-                <span>
-                    THOUSAND
-                </span>
-                <p>
-                    OF HAPPY CUSTOMERS
-                </p>
-            </div>
-            <nav class="header_link">
+            <nav class="mobile-nav-links" aria-label="Mobile navigation">
                 <a href="#services">Services</a>
                 <a href="#media">Media</a>
                 <a href="#cases">Cases</a>
                 <a href="#faq">FAQ</a>
                 <a href="#contacts">Contacts</a>
             </nav>
+
+            <div class="mobile-menu-contacts">
+                <div class="contact_group">
+                    <a href="tel:+71111111111" class="contact_link">
+                        <img src="src/img/phone.png" alt="">
+                        +7 (111) 111 11 11
+                    </a>
+                    <a href="tel:+71111111111" class="contact_link">
+                        <img src="src/img/phone.png" alt="">
+                        +7 (111) 111 11 11
+                    </a>
+                </div>
+                <div class="contact_group">
+                    <a href="mailto:itcompany@mail.com" class="contact_link">
+                        <img src="src/img/email.png" alt="">
+                        itcompany@mail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <header class="header_pc">
+            <div class="company_name">IT WEBSITE</div>
+
+            <nav class="header_link" aria-label="Main navigation">
+                <a href="#services">Services</a>
+                <a href="#media">Media</a>
+                <a href="#cases">Cases</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+
             <div class="header_contacts">
                 <div class="contact_group">
-                    <img src="src/img/phone.png" alt="Телефон" class="phone_icon" />
+                    <img src="src/img/phone.png" alt="">
                     <a href="tel:+77072548147" class="contact_link">+7 (707) 254 81 47</a>
                     <a href="tel:+77783959026" class="contact_link">+7 (778) 395 90 26</a>
                 </div>
-
                 <div class="contact_group">
-                    <img src="src/img/email.png" alt="Email" class="email_icon" />
-                    <a href="mailto:thousanditcompany@gmail.com" class="contact_link">thousanditcompany@gmail.com</a>
+                    <img src="src/img/email.png" alt="">
+                    <a href="mailto:thousanditcompany@gmail.com" class="contact_link">
+                        thousanditcompany@gmail.com
+                    </a>
                 </div>
             </div>
         </header>
-        <main>
-            <h1>
-                Development of <span class='text_blue'>mobile <br>
-                    applications</span> and <span class='text_blue'>web <br class="br_mob"> services</span> of <br class="br_pc">
-                any complexity
-            </h1>
-            <p>
-                We create mobile applications for iOS, Android that <br class="br_mob"> transfer your business to mobile<br class="br_pc">
-                applications of your customers' devices
-            </p>
-            <div class="form">
-                <h2>
-                    Leave your contacts and we will call you back <br>
-                    within 30 minutes
-                </h2>
-                <form>
-                    <div class="form_field">
-                        <div class="form_section">
-                            <label>Phone number </label>
-                            <div class="input_flag">
-                                <img src="src/img/flag.png" class="flag-icon">
-                                <input type="tel" placeholder="+7 (702) 517-11-98">
-                            </div>
-                        </div>
-                        <div class="form_section">
-                            <label>Full name</label>
-                            <input type="text" placeholder="Агадиль">
-                        </div>
-                        <button class="button_form" type="submit">
-                            Get <br class="br_pc">
-                            consultation
-                        </button>
-                    </div>
 
-                </form>
+        <main class="hero-block">
+            <div class="hero-left">
+                <h1>
+                    Development of <span class="text_blue">mobile <br>applications</span>
+                    and <span class="text_blue">web services</span> of
+                    <br class="br_pc">any complexity
+                </h1>
+                <p>
+                    We create mobile applications for iOS, Android that transfer your
+                    business to mobile applications of your customers' devices
+                </p>
+
+                <img class="mobile-hero-image" src="src/img/back425.png" alt="">
+
+                <div class="form">
+                    <h2>
+                        Leave your contacts and we will call you back <br>
+                        within 30 minutes
+                    </h2>
+
+                    <form>
+                        <div class="form_field">
+                            <div class="form_section">
+                                <label for="hero-phone">Phone number</label>
+                                <div class="input_flag">
+                                    <img src="src/img/flag.png" class="flag-icon" alt="">
+                                    <input id="hero-phone" type="tel" placeholder="+7 (702) 517-11-98">
+                                </div>
+                            </div>
+
+                            <div class="form_section">
+                                <label for="hero-name">Full name</label>
+                                <input id="hero-name" type="text" placeholder="Агадиль">
+                            </div>
+
+                            <button class="button_form" type="submit">
+                                Get <br class="br_pc">consultation
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
 
+            <div class="hero-image">
+                <img src="src/img/background.png" alt="">
+            </div>
         </main>
     </div>
-    <div class="Full_Development_Cycle">
+
+    <section class="Full_Development_Cycle" id="services">
         <div class="Full_Development_Cycle_left">
-            <h2>
-                Full development cycle
-            </h2>
-            <p class="Full_Development_Cycle_h">
-                We use proven technologies
-            </p>
-            <div class="Full_Development_Cycle_cont_left">
-                <h3>
-                    Web
-                </h3>
-                <p>
-                    PHP / Javascript / Node.JS / Web Socket / Socket.io /
-                    Vue.js/ <br>Nuxt / MySQL / Laravel / GO lang / django / Python
-                </p>
-            </div>
-            <div class="Full_Development_Cycle_cont_left">
-                <h3>
-                    Mobile
-                </h3>
-                <p>
-                    Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm /<br>
-                    Coroutine / RxJava / RxSwift / Unit Test / Navigation
-                </p>
-            </div>
-        </div>
-        <div class="Full_Development_Cycle_right">
-            <a href="#">
-                iOS development <img src="src/img/strelka.png">
-            </a>
-            <a href="#">
-                Android development <img src="src/img/strelka.png">
-            </a>
-            <a href="#">
-                Web development <img src="src/img/strelka.png">
-            </a>
-            <a href="#">
-                UI/UX design <img src="src/img/strelka.png">
-            </a>
-            <a href="#">
-                Testing <img src="src/img/strelka.png">
-            </a>
-            <a href="#">
-                Launch <img src="src/img/strelka.png">
-            </a>
-            <a href="#">
-                IT consulting <img src="src/img/strelka.png">
-            </a>
-        </div>
-    </div>
-    <div class="page_3">
-        <h2>
-            Developed more than <span class="blue">100</span>
-            <br>
-            projects in <span class="blue">15</span> industries
-        </h2>
-        <div class="page_3_cat">
+            <h2>Full development cycle</h2>
+            <p>We use proven technologies</p>
+
+            <h3>Web</h3>
             <p>
-                <img src="src/img/sm.png"> Social media
-            </p>
-            <p>
-                <img src="src/img/fas.png"> Fitness and sport
-            </p>
-            <p>
-                <img src="src/img/bank.png"> Bank
-            </p>
-            <p>
-                <img src="src/img/construction.png"> Construction
-            </p>
-            <p>
-                <img src="src/img/gp.png"> Game projects
-            </p>
-            <p>
-                <img src="src/img/education.png"> Education
-            </p>
-            <p>
-                <img src="src/img/at.png"> Auto, transport
-            </p>
-            <p>
-                <img src="src/img/mh.png"> Medicine, health
-            </p>
-            <p>
-                <img src="src/img/rfd.png"> Restaurants, food delivery
-            </p>
-            <p>
-                <img src="src/img/market.png"> Marketplaces
-            </p>
-            <p>
-                <img src="src/img/art.png"> AR technology
-            </p>
-            <p>
-                <img src="src/img/tvs.png"> TV series
-            </p>
-            <p>
-                <img src="src/img/start.png"> Startups
-            </p>
-            <p>
-                <img src="src/img/religion.png"> Religion
-            </p>
-            <p>
-                <img src="src/img/oc.png"> Online cources
+                PHP / Javascript / Node.JS / Web Socket / Socket.io /
+                Vue.js / Nuxt / MySQL / Laravel / GO lang / django / Python
             </p>
 
+            <h3>Mobile</h3>
+            <p>
+                Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm /
+                Coroutine / RxJava / RxSwift / Unit Test / Navigation
+            </p>
         </div>
-        <h2>
-            Projects we are proud of
+
+        <div class="Full_Development_Cycle_right">
+            <a href="#">iOS development <img src="src/img/strelka.png" alt=""></a>
+            <a href="#">Android development <img src="src/img/strelka.png" alt=""></a>
+            <a href="#">Web development <img src="src/img/strelka.png" alt=""></a>
+            <a href="#">UI/UX design <img src="src/img/strelka.png" alt=""></a>
+            <a href="#">Testing <img src="src/img/strelka.png" alt=""></a>
+            <a href="#">Launch <img src="src/img/strelka.png" alt=""></a>
+            <a href="#">IT consulting <img src="src/img/strelka.png" alt=""></a>
+        </div>
+    </section>
+
+    <section class="page_3" id="cases">
+        <h2 class="industries-title">
+            Developed more than <span class="blue">100</span><br>
+            projects in <span class="blue">15</span> industries
         </h2>
-        <p class="p_page_3">
-            Our software development company is truly
-            proud of the wonderful clients we have <br>
-            worked with. We enjoy a long-term partnership
-        </p>
-        <div class="page_3_link_and_text">
+
+        <div class="page_3_cat">
+            <p><img src="src/img/sm.png" alt=""> Social media</p>
+            <p><img src="src/img/fas.png" alt=""> Fitness and sport</p>
+            <p><img src="src/img/bank.png" alt=""> Bank</p>
+            <p><img src="src/img/construction.png" alt=""> Construction</p>
+            <p><img src="src/img/gp.png" alt=""> Game projects</p>
+            <p><img src="src/img/education.png" alt=""> Education</p>
+            <p><img src="src/img/at.png" alt=""> Auto, transport</p>
+            <p><img src="src/img/mh.png" alt=""> Medicine, health</p>
+            <p><img src="src/img/rfd.png" alt=""> Restaurants, food delivery</p>
+            <p><img src="src/img/market.png" alt=""> Marketplaces</p>
+            <p><img src="src/img/art.png" alt=""> AR technology</p>
+            <p><img src="src/img/tvs.png" alt=""> TV series</p>
+            <p><img src="src/img/start.png" alt=""> Startups</p>
+            <p><img src="src/img/religion.png" alt=""> Religion</p>
+            <p><img src="src/img/oc.png" alt=""> Online courses</p>
+        </div>
+
+        <div class="projects">
+            <h2 class="projects-title">Projects we are proud of</h2>
+            <p class="projects-intro">
+                Our software development company is truly proud of the wonderful clients
+                we have worked with. We enjoy a long-term partnership.
+            </p>
+
             <div class="links_bar">
                 <div class="links">
-                    <a href="#I-teka">
-                        I-teka
-                    </a>
-                    <a href="Dauletten">
-                        Dauletten
-                    </a>
-                    <a href="Guru Bosch">
-                        Guru Bosch
-                    </a>
-                    <a href="Santo">
-                        Santo
-                    </a>
-                    <a href="Home Credit Bank">
-                        Home Credit Bank
-                    </a>
-                    <a href="BI Partners">
-                        BI Partners
-                    </a>
-                    <a href="Europharma">
-                        Europharma
-                    </a>
+                    <a href="#I-teka" class="active">I-teka</a>
+                    <a href="Dauletten">Dauletten</a>
+                    <a href="Guru Bosch">Guru Bosch</a>
+                    <a href="Santo">Santo</a>
+                    <a href="Home Credit Bank">Home Credit Bank</a>
+                    <a href="BI Partners">BI Partners</a>
+                    <a href="Europharma">Europharma</a>
                 </div>
                 <div class="links_bar_button" id="view_100pc">
-                    <a href="view_100">
-                        View 100 more projects
-                    </a>
+                    <a href="view_100">View 100 more projects</a>
                 </div>
             </div>
+
             <div class="text_and_img_page_3">
                 <div class="text_and_img_page_3_left">
-                    <img src="src/img/1.png" id="iteka_img_425">
-                    <h2 id="I-teka">
-                        I-teka
+                    <img src="src/img/1.png" id="iteka_img_425" alt="I-teka app">
+
+                    <div class="project-title">
+                        <h2 id="I-teka">I-teka</h2>
                         <div class="links_bar_button" id="view_100_768">
-                    <a href="view_100">
-                        View 100 more projects
-                    </a>
-                    </h2>
-                    <p class="p_page_3">
-                        The application is designed to search for drugs by availability in pharmacies in cities. <br>
-                        During quarantine, the application helped many people, <br>
+                            <a href="view_100">View 100 more projects</a>
+                        </div>
+                    </div>
+
+                    <p class="project-description">
+                        The application is designed to search for drugs by availability in pharmacies in cities.<br>
+                        During quarantine, the application helped many people,<br>
                         which gives more value.
                     </p>
-                    <p class="p_page_3_2">
-                        Business analysis / iOS / Android / QA / UI/UX Design
+
+                    <p class="project-stack">
+                        Business analysis <span>/</span> iOS <span>/</span> Android
+                        <span>/</span> QA <span>/</span> UI/UX Design
                     </p>
+
                     <div class="left_img">
-                        <p>
-                            <img src="src/img/geo_blue.png"> Kazakhstan
-                        </p>
-                        <p>
-                            <img src="src/img/case.png"> Medicine
-                        </p>
+                        <p><img src="src/img/geo_blue.png" alt=""> Kazakhstan</p>
+                        <p><img src="src/img/case.png" alt=""> Medicine</p>
                     </div>
+
                     <div class="procent">
-                        <div class="procent_1">
+                        <div>
                             <span>400%</span>
-                            <p>
-                                User Growth
-                            </p>
+                            <p>User Growth</p>
                         </div>
-                        <div class="procent_2">
+                        <div>
                             <span>+ 200 000</span>
-                            <p>
-                                Active Users
-                            </p>
+                            <p>Active Users</p>
                         </div>
                     </div>
+
                     <div class="download">
-                        <img src="src/img/ios.png">
-                        <img src="src/img/android.png">
+                        <img src="src/img/ios.png" alt="App Store">
+                        <img src="src/img/android.png" alt="Google Play">
                     </div>
+
                     <div class="links_bar_button" id="view_100425">
-                    <a href="view_100">
-                        View 100 more projects
-                    </a>
-                </div>
+                        <a href="view_100">View 100 more projects</a>
+                    </div>
                 </div>
 
                 <div class="text_and_img_page_3_right">
-                    <img src="src/img/1.png">
+                    <img src="src/img/1.png" alt="I-teka app">
                 </div>
             </div>
         </div>
-        <div class="form_discuss">
+
+        <div class="form_discuss" id="request">
             <div class="form_discuss_left">
-                <h2>
-                    Let's discuss <br>
-                    Your project
-                </h2>
+                <h2>Let's discuss <br>your project</h2>
                 <p>
-                    Let's figure out how to create an effective application, <br>
-                    its cost and terms of its development
+                    Let's figure out how to create an effective application,
+                    its cost and terms of its development.
                 </p>
             </div>
+
             <div class="form_discuss_right">
                 <div class="form">
-
                     <form>
                         <div class="form_field" id="form_field">
                             <div class="form_f">
-                                <div class="form_section" id="form_section">
-                                    <label>Phone number </label>
+                                <div class="form_section">
+                                    <label for="project-phone">Phone number</label>
                                     <div class="input_flag">
-                                        <img src="src/img/flag.png" class="flag-icon">
-                                        <input type="tel" placeholder="+7 (702) 517-11-98">
+                                        <img src="src/img/flag.png" class="flag-icon" alt="">
+                                        <input id="project-phone" type="tel" placeholder="+7 (702) 517-11-98">
                                     </div>
                                 </div>
+
                                 <div class="form_section">
-                                    <label>Full name</label>
-                                    <input type="text" placeholder="Иван Иванов">
+                                    <label for="project-name">Full name</label>
+                                    <input id="project-name" type="text" placeholder="Иван Иванов">
                                 </div>
                             </div>
-                            <button class="button_form" type="submit" id="button_form">
+
+                            <button class="button_form" id="button_form" type="submit">
                                 Discuss the project
                             </button>
                         </div>
-
                     </form>
                 </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <h2>
-            IT WEBSITE
-        </h2>
-        <div class="footer_info" id="footer_info">
+    </section>
+
+    <footer id="contacts">
+        <h2>IT WEBSITE</h2>
+
+        <div class="footer_info">
             <div class="footer_content">
                 <div class="footer_content_row_img">
-                    <img src="src/img/phone_footer.png">
-                    <span>Contact nums</span>
+                    <img src="src/img/phone_footer.png" alt="">
+                    <span>Phone</span>
                 </div>
                 <a href="tel:+77783959026">+7 (778) 395 90 26</a>
             </div>
 
             <div class="footer_content">
                 <div class="footer_content_row_img">
-                    <img src="src/img/email_footer.png">
-                    <span>Post</span>
+                    <img src="src/img/email_footer.png" alt="">
+                    <span>Email</span>
                 </div>
-                <a href="mailto:mail@mail.com"> mail@mail.com</a>
+                <a href="mailto:mail@mail.com">mail@mail.com</a>
             </div>
 
             <div class="footer_content">
                 <div class="footer_content_row_img">
-                    <img src="src/img/geo_footer.png">
-                    <span>Adress</span>
+                    <img src="src/img/geo_footer.png" alt="">
+                    <span>Address</span>
                 </div>
-                <address>
-                    City city, street st. 90
-                </address>
+                <address>City city, street st. 90</address>
             </div>
+
             <div class="footer_content">
                 <div class="footer_content_row_img">
-                    <img src="src/img/doc_footer.png">
+                    <img src="src/img/doc_footer.png" alt="">
                     <span>Leave a request</span>
                 </div>
-                <a href="#"> Leave a request</a>
+                <a href="#request">Leave a request</a>
             </div>
         </div>
+
         <div class="footer_down">
-            <img src="src/img/footer_info.png">
-            <span>We work throughout world</span>
+            <img src="src/img/footer_info.png" alt="">
+            <span>We work throughout the world</span>
         </div>
     </footer>
 </body>
-
 </html>
